@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let username = prompt("Nome: ");
+        let password = prompt("senha: ")
+        let adm = true;
+        
+        
+        if (username == "monica" && password == "123456"){
+          console.log ("Por favor, insira sua nova senha...")
+          alert ("Por favor, insira sua nova senha...")
+        
+          if (adm == true){
+            console.log("Bem-vindo(a) à área de administrador!!!")
+            alert("Bem-vindo(a) à área de administrador!!!")
+          }
+          else {
+            console.log("Você não pode acessar esta parte do sistema...")
+            alert("Você não pode acessar esta parte do sistema...")
+          }
+        }
+        else {
+          console.log("username / senha incorretos...")
+          alert("username / senha incorretos...")
+        }
+        </script>
+    
+</body>
+</html>
